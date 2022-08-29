@@ -12,6 +12,6 @@ public class HelloWorld implements SparkApplication {
 		get("/hello", (req, res) -> "Hello World");
                 get("/", (req, res) -> "WELCOME IN JIMMY CENTER 544 COURT");
 		get("/jimmy", (req, res) -> "HALA MADRID Y NADA MAS");
-                get("/m2i", (req, res) -> "BIENVENUE A VILLENEUVEDASQUUE");
+                get("/", (req, res) -> "BIENVENUE A VILLENEUVEDASQUUE");
 	}
 }
